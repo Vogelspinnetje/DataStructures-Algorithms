@@ -197,7 +197,8 @@ def switches(binary_list: list[int]) -> int:
 
 
 if __name__ == '__main__':
-    print(find_target((35,2), (2,2)))  # Expected output: 5    print(min_num_of_squares(12))  # Expected output: 3
+    print(find_target((35,2), (2,2)))  # Expected output: 5    
+    print(min_num_of_squares(12))  # Expected output: 3
     print(mirrored_numbers("1001", "1200"))  # Expected output: 2
     print(max_distance([[0, 6], [3, 4], [2, 5], [1, 3]])) # Expected output: 5
     print(switches([0, 1, 1, 1, 0, 0, 0, 1, 1, 0])) # Expected output: 2
